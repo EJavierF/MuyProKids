@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Muy Pro Blog</title>
+        <link rel="stylesheet" href="../assets/css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    </head>
+    <body class="body body_bg">
+        <header class="header">
+            <div>
+                <img class="header__logo" src="../img/MPK_cara_02.svg" alt="Muy Pro Kids" height="35" width="35" />
+            </div>
+
+            <nav>
+                <div class="header__menu">
+                    <!--Menú desplegable para navegación, disponible en todas las páginas-->
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li>
+                            <a href="./actividades.html">Actividades</a>
+                            <!--contiene los enlaces a los diferentes artículos dentro de la otra pagina-->
+                            <ul>
+                                <li>
+                                    <a href="./actividades.html#dibujosAnimaciones">Dibujos y animaciones</a>
+                                </li>
+                                <li>
+                                    <a href="./actividades.html#stopMotion">Stop Motion</a>
+                                </li>
+                                <li>
+                                    <a href="./actividades.html#programarJugando">Aprendiendo a programar jugando</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li><a href="./sobreNosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="section1">
+            <h1 class="section1__title">Muy pro kids - Blog</h1>
+            <article class="section1_article1">
+                <h3 class="section1__subtitle section1__subtitle--h3">Entrada del día</h3>
+                <p class="section1__paragraph section1__paragraph--blog">
+                    Hoy vamos a ver cómo crear un personaje 3D a partir de uno 2D. <br />
+                    Lo primero que necesitamos es conseguir la imagen 2D de nuestro modelo, luego la abriremos desde paint 3D, y empezaremos a modelar las partes. En nuestro caso elegimos al amigo Hank del conocido juego Madness Combat Podemos empezar por la cabeza, eligiendo arriba la opción de figuras 3D y luego en el menú de la derecha la esfera.
+                </p>
+                <img src="../img/Cap_hank_paint3D.PNG" alt="hank 3D" class="section1--img__actividades" />
+            </article>
+        </section>
+
+        <!--PIE con información de redes y contacto, disponible en todas las páginas-->
+        <footer class="footer">
+            <ul class="footer__menu">
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="">Partners</a></li>
+                <li><a href="">Politica de Privacidad</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contacto</title>
+        <link rel="stylesheet" href="../assets/css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    </head>
+
+    <body class="body body_bg">
+        <header class="header">
+            <div>
+                <img class="header__logo" src="../img/MPK_cara_02.svg" alt="Muy Pro Kids" height="35" width="35" />
+            </div>
+
+            <nav>
+                <div class="header__menu">
+                    <!--Menú desplegable para navegación, disponible en todas las páginas-->
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li>
+                            <a href="./actividades.html">Actividades</a>
+                            <!--contiene los enlaces a los diferentes artículos dentro de la otra pagina-->
+                            <ul>
+                                <li>
+                                    <a href="./actividades.html#dibujosAnimaciones">Dibujos y animaciones</a>
+                                </li>
+                                <li>
+                                    <a href="./actividades.html#stopMotion">Stop Motion</a>
+                                </li>
+                                <li>
+                                    <a href="./actividades.html#programarJugando">Aprendiendo a programar jugando</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li><a href="./sobreNosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="section1">
+            <h1 class="section1__title">Muy pro kids - Contacto</h1>
+            <form action="" class="section1__form">
+                <fieldset>
+                    <legend class="form__legend">Envíanos tu mensaje!</legend>
+                    <div>
+                        <label class="form__label" for="name">Nombre y Apellido</label>
+                        <br />
+                        <input type="text" class="formInput__text" id="name" name="name" placeholder="Nombre y apellido" />
+                    </div>
+                    <br />
+                    <div>
+                        <label class="form__label" for="email">Correo Electrónico</label>
+                        <br />
+                        <input type="email" class="formInput__email" id="email" name="email" placeholder="Correo Electrónico" />
+                    </div>
+                    <br />
+                    <div>
+                        <label class="form__label" for="mensaje">Tu mensaje</label>
+                        <br />
+                        <input type="textarea" class="formInput__textarea" id="mensaje" name="mensaje" placeholder="ingrese aquí su mensaje" />
+                    </div>
+
+                    <div>
+                        <label class="form__label" for="newsletterSubscription">Deseas recibir nuestro newsletter?</label>
+
+                        <input type="checkbox" class="formInput__checkbox" name="newsletter" id="newsletterSubscription" value="ok" />
+                        <br />
+                    </div>
+
+                    <div>
+                        <label class="form__label" for="pais">De dónde nos escribes?</label>
+                        <select class="formInput__select" name="pais" id="pais">
+                            <option value="arg">Argentina</option>
+                            <option value="uru">Uruguay</option>
+                            <option value="chi">Chile</option>
+                            <option value="para">Paraguay</option>
+                            <option value="bol">Bolivia</option>
+                            <option value="otro">otro</option>
+                        </select>
+                        <br />
+                    </div>
+
+                    <input class="form__button" type="submit" value="Enviar" name="" id="botonEnviar" />
+                    <input class="form__button" type="reset" value="Borrar" name="" id="botonBorrar" />
+                </fieldset>
+            </form>
+        </section>
+
+        <!--PIE con información de redes y contacto, disponible en todas las páginas-->
+
+        <footer class="footer">
+            <ul class="footer__menu">
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="">Partners</a></li>
+                <li><a href="">Politica de Privacidad</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

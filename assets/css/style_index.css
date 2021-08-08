@@ -1,0 +1,240 @@
+/* INICIALIZAR CSS*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /*background-color: #acc4d1;*/
+    background-image: url(../../img/foco\ trans-01.png);
+    background-position: right;
+    font-size: 1.6rem;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* ---- HEADER ---- */
+/* Ahora resuelto con flex-box -- marcado con los símbolos /*-*/
+
+.header {
+    /*background-color: #c2e0f2;*/
+    background-image: linear-gradient(to right, #ffed85, #ee24ab, rgb(114, 30, 211));
+    width: 100%;
+    height: 4rem;
+    font-family: share;
+    font-size: 1.8rem;
+    display: flex; /*-*/
+    justify-content: space-between; /*-*/
+    align-items: center; /*-*/
+}
+
+.header__logo {
+    padding: 0.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    object-fit: scale-down;
+}
+
+.header__menu {
+    padding: auto;
+}
+.header__menu > ul {
+    height: 100%;
+    padding: 0.3rem;
+    display: flex; /*-*/
+    flex-direction: row; /*-*/
+    align-items: center; /*-*/
+}
+.header__menu li a {
+    background-color: none;
+    color: white;
+    text-decoration: none;
+    padding: 0.9rem 1.5rem;
+    display: block;
+}
+
+.header__menu li a:hover {
+    background-color: #f1cd83;
+}
+
+.header__menu li ul {
+    display: none;
+    position: absolute;
+}
+
+.header__menu li:hover > ul {
+    display: block;
+    z-index: 300;
+    background-color: rgb(175, 30, 211);
+}
+
+/* ---- BODY ---- */
+
+.section1 {
+    position: relative;
+    width: 100%;
+}
+.section1__title {
+    text-align: center;
+    font-size: 28pt;
+    /*color: #115077;*/
+    color: #6c3261;
+    font-family: "share";
+    margin: 3rem;
+}
+
+/* ---- Sección 1 ---- */
+/*  SUbtitulo texto e imágen de Home*/
+
+.section1__subtitle {
+    font-size: 3.2rem;
+    color: #6c3261;
+    font-family: "share";
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+}
+
+.section1__article1 {
+    display: flex; /*-*/
+    flex-direction: row; /*-*/
+    justify-content: space-evenly; /*-*/
+    padding: 3rem;
+    margin: 2rem;
+    width: 50%;
+    height: 70rem;
+}
+
+.section1__paragraph {
+    font-family: "roboto";
+    font-size: 14pt;
+    color: #115077;
+    padding-right: 2rem;
+    text-align: justify;
+}
+
+.section1__img {
+    width: 50%;
+    margin: 2rem;
+    overflow: hidden;
+}
+
+.section1__subtitle--h3 {
+    font-size: 2rem;
+}
+
+/* ---- FOOTER ---- */
+
+.footer {
+    margin: auto;
+    /*background-color: #c2e0f2;*/
+    background-image: linear-gradient(to right, #ffed85, #ee24ab, rgb(114, 30, 211));
+    width: 100%;
+    height: 40px;
+    font-family: "share";
+    display: flex; /*-*/
+    align-items: center; /*-*/
+}
+
+.footer__menu {
+    margin: auto;
+    width: 60rem;
+    display: flex; /*-*/
+    flex-direction: row; /*-*/
+    justify-content: center; /*-*/
+}
+.footer__menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+}
+
+/* ---- CONTACTO ----*/
+/* Tiene los mismos estilos que las demás páginas, pero con formulario*/
+
+.section1__form {
+    width: 50%;
+    height: 600px;
+    color: #115077;
+    font-family: "roboto";
+}
+
+.form__legend {
+    font-size: 2.5rem;
+    padding: 1.5rem;
+}
+.form__label {
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+.formInput__text {
+    width: 90%;
+    padding: 0.6rem 0.5rem;
+    margin: 0.6rem 1rem;
+}
+.formInput__email {
+    width: 90%;
+    padding: 0.6rem 0.5rem;
+    margin: 0.6rem 1rem;
+}
+.formInput__textarea {
+    width: 90%;
+    height: 10rem;
+    padding: 0.6rem 0.5rem;
+    margin: 0.6rem 1rem;
+}
+
+.formInput__checkbox {
+    padding: 6px 5px;
+    margin: 10px 0;
+}
+
+.formInput__select {
+    padding: 6px 5px;
+    margin: 10px 0;
+}
+
+.form__button {
+    background-color: #ee24ab;
+    border: none;
+    border-radius: 10px;
+    color: #115077;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+/* ---- ACTIVIDADES ---- */
+
+.section1__article2 {
+    padding: 3rem;
+    margin: 2rem;
+    width: 75%;
+}
+.section1__subtitle--margin {
+    padding-left: 3rem;
+    margin-left: 1rem;
+}
+
+.section1--img__actividades {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+/* ---- BLOG ---- */
+
+.section1__paragraph--blog {
+    margin: 2rem;
+    padding: 2rem;
+    width: 60%;
+}
