@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Muy Pro Kids</title>
-        <!-- <link rel="stylesheet" href="./assets/css/style.css" /> -->
+        <link rel="stylesheet" href="./assets/css/style_aux.css" />
 
         <!-- CSS -- Se enlaza bootstrap y fuentes de googlefonts -->
 
@@ -16,8 +16,8 @@
     </head>
 
     <body class="body body__index">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <header class="bg_gradient">
+            <nav class="navbar navbar-expand-sm navbar-light header__menu">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img width="30" height="30" alt="" src="./img/MPK_cara_02.svg" alt="Muy Pro Kids" />
@@ -28,11 +28,11 @@
                     <!--Menú desplegable para navegación, disponible en todas las páginas-->
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link text-body" href="index.html">Inicio</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Actividades</a>
+                                <a class="nav-link dropdown-toggle text-body" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Actividades</a>
                                 <!-- contiene los enlaces a los diferentes artículos dentro de la otra pagina -->
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu bg_gradient" aria-labelledby="navbarDropdown">
                                     <li>
                                         <a class="dropdown-item" href="./views/actividades.html#dibujosAnimaciones">Dibujos y animaciones</a>
                                     </li>
@@ -45,17 +45,17 @@
                                 </ul>
                             </li>
 
-                            <li class="nav-item"><a class="nav-link" href="./views/contacto.html">Contacto</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./views/sobreNosotros.html">Sobre Nosotros</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./views/blog.html">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link text-body" href="./views/contacto.html">Contacto</a></li>
+                            <li class="nav-item"><a class="nav-link text-body" href="./views/sobreNosotros.html">Sobre Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link text-body" href="./views/blog.html">Blog</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
         <br />
-        <section class="section1">
-            <h1 class="section1__title">BIENVENIDOS A MUY PRO KIDS</h1>
+        <section class="container">
+            <h1 class="text-align-center">BIENVENIDOS A MUY PRO KIDS</h1>
             <h2 class="section1__subtitle">El sitio donde la familia y la tecnología se alían</h2>
             <article class="section1__article1 section1__article1--index" id="bienvenida">
                 <div>
@@ -70,11 +70,11 @@
 
         <!--PIE con información de redes y contacto, disponible en todas las páginas-->
 
-        <footer class="footer">
-            <ul class="footer__menu">
-                <li><a href="./views/contacto.html">Contacto</a></li>
-                <li><a href="">Partners</a></li>
-                <li><a href="">Politica de Privacidad</a></li>
+        <footer class="bg_gradient container-fluid">
+            <ul class="navbar">
+                <li class="nav-item"><a class="nav-link text-light" href="./views/contacto.html">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="">Partners</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="">Politica de Privacidad</a></li>
             </ul>
         </footer>
 
