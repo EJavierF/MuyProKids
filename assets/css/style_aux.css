@@ -15,10 +15,6 @@ html {
     min-height: 100vh;
 }
 
-.body__index {
-    background-image: url(../../img/foco\ trans-01.png);
-    background-position: right;
-}
 .body__bg {
     background-color: #ffed85;
 }
@@ -30,23 +26,37 @@ ul,
 ol {
     list-style: none;
 }
-.header__menu {
+
+.of_hidden {
+    overflow: hidden;
 }
 
-@media (min-device-width: 578px) {
+.footer__bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+@media (min-width: 578px) {
+    .img_fondo {
+        display: none;
+    }
+    .body__index {
+        background-image: url(../../img/foco\ trans-01.png);
+        background-position: right;
+    }
     .header__menu {
         padding: auto;
+        width: 100%;
     }
     .header__menu > ul {
         height: 100%;
-        padding: 0.3rem;
+        padding: auto;
         display: flex;
         flex-direction: row;
         align-items: center;
     }
     .header__menu li a {
         background-color: none;
-        color: white;
         text-decoration: none;
         padding: 0.9rem 1.5rem;
         display: block;
