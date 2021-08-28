@@ -1,0 +1,47 @@
+@media (min-width: 578px) {
+    .img_fondo {
+        display: none;
+    }
+    .body__index {
+        background-image: url(../../img/foco-trans-01.png);
+        background-position: center;
+    }
+    .header__menu {
+        padding: auto;
+        width: 100%;
+        font-family: share;
+        font-size: 1.8rem;
+        ul {
+            height: 100%;
+            padding: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        li a {
+            background-color: none;
+            text-decoration: none;
+            padding: 0.9rem 1.5rem;
+            display: block;
+            border-radius: 2.5pt;
+        }
+
+        li a:hover {
+            background-color: $color-rosa;
+        }
+
+        li ul {
+            display: none;
+            position: absolute;
+        }
+
+        li:hover > ul {
+            display: block;
+            z-index: 300;
+
+            li {
+                background-image: linear-gradient(to right, $color-fucsia, $color-lila);
+            }
+        }
+    }
+}

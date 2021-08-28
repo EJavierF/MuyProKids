@@ -1,0 +1,27 @@
+.section1 {
+    &__title {
+        text-align: center;
+        font-size: 28pt;
+        color: $color-violeta-oscuro;
+        font-family: "share";
+        margin: 3rem;
+    }
+    &__subtitle {
+        font-size: 3.2rem;
+        color: $color-violeta-oscuro;
+        font-family: "share";
+
+        &--center {
+            text-align: center;
+        }
+    }
+
+    &__paragraph {
+        font-family: "roboto";
+        font-size: 14pt;
+        font-weight: 500;
+        color: $color-azul;
+        padding-right: 2rem;
+        text-align: justify;
+    }
+}
