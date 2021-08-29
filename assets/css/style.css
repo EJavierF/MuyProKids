@@ -50,9 +50,9 @@ ol {
       position: absolute; }
     .header__menu li:hover > ul {
       display: block;
-      z-index: 300; }
-      .header__menu li:hover > ul li {
-        background-image: linear-gradient(to right, #ee24e4, #a424ee); } }
+      height: auto;
+      z-index: 300;
+      background-image: linear-gradient(to right, #ee24e4, #a424ee); } }
 
 .section1__title {
   text-align: center;
