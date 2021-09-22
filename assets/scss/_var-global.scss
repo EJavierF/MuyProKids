@@ -1,12 +1,12 @@
 $color-claro: #ccc;
-$color-violeta: rgb(114, 30, 211);
-$color-rosa: #ee24ab;
+$color-violeta: rgb(145, 30, 211);
+$color-rosa: #f34179;
 $color-amarillo: #ffed85;
-$color-violeta-oscuro: #6c3261;
+$color-violeta-oscuro: #4b1078;
 $color-azul: #115077;
 $color-fucsia: #ee24e4;
 $color-lila: #a424ee;
-
+$color-naranja: #fc894e;
 * {
     padding: 0px;
     margin: 0px;
@@ -15,7 +15,9 @@ $color-lila: #a424ee;
 html {
     font-size: 62.5%;
 }
-
+a {
+    text-decoration: none;
+}
 ul,
 ol {
     list-style: none;
@@ -25,7 +27,7 @@ ol {
     min-height: 100vh;
 }
 .bg_gradient {
-    background-image: linear-gradient(to right, $color-fucsia, $color-violeta);
+    background-image: linear-gradient(to right, $color-rosa, $color-violeta);
 }
 @media (min-width: 768px) {
     .body__index {

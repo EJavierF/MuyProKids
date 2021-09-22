@@ -1,0 +1,23 @@
+.card {
+    &-blog {
+        border-color: $color-violeta;
+        border-radius: 5px;
+        border-width: 2px;
+        transition: all 0.5s;
+        color: $color-azul;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    &-title {
+        font-family: "share";
+        font-size: 2rem;
+        color: $color-violeta-oscuro;
+    }
+    &-text {
+        font-family: "roboto";
+        font-size: 1.4rem;
+        color: $color-azul;
+        text-align: justify;
+    }
+}
