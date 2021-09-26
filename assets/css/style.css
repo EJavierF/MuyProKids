@@ -87,8 +87,8 @@ ol {
     font-size: 3.2rem; } }
 
 .section1__form {
-  height: 600px;
-  color: #115077;
+  height: auto;
+  color: #4b1078;
   font-family: "roboto";
   margin-left: 4rem; }
 
@@ -123,8 +123,8 @@ ol {
   background-color: #911ed3;
   border: none;
   border-radius: 10px;
-  color: #ccc;
-  padding: 16px 32px;
+  color: #fff;
+  padding: 10px 40px;
   text-decoration: none;
   margin: 10px 10px;
   margin-top: 25px;
@@ -149,3 +149,26 @@ ol {
   font-size: 1.4rem;
   color: #115077;
   text-align: justify; }
+
+.aside {
+  border-bottom: 1px solid #4b1078;
+  margin-bottom: 20px; }
+  .aside-subtitle {
+    font-size: 2.2rem;
+    color: #4b1078;
+    font-family: "share"; }
+
+.section1__form--blog {
+  height: auto;
+  color: #4b1078;
+  font-family: "roboto"; }
+
+.form__button--blog {
+  background-color: #911ed3;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px 20px;
+  text-decoration: none;
+  margin: 1rem 0;
+  cursor: pointer; }
