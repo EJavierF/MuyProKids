@@ -1,0 +1,50 @@
+.card {
+    &-blog {
+        border-color: $color-violeta;
+        border-radius: 5px;
+        border-width: 2px;
+        transition: all 0.5s;
+        color: $color-azul;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    &-title {
+        font-family: "share";
+        font-size: 2rem;
+        color: $color-violeta-oscuro;
+    }
+    &-text {
+        font-family: "roboto";
+        font-size: 1.4rem;
+        color: $color-azul;
+        text-align: justify;
+    }
+}
+.aside {
+    border-bottom: 1px solid $color-violeta-oscuro;
+    margin-bottom: 20px;
+    &-subtitle {
+        font-size: 2.2rem;
+        color: $color-violeta-oscuro;
+        font-family: "share";
+    }
+}
+
+.section1__form--blog {
+    height: auto;
+    color: $color-violeta-oscuro;
+    font-family: "roboto";
+}
+
+.form__button--blog {
+    background-color: $color-violeta;
+    border: none;
+    border-radius: 10px;
+    color: $color-claro;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin: 1rem 0;
+
+    cursor: pointer;
+}
