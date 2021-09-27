@@ -86,6 +86,30 @@ ol {
   .section1__subtitle {
     font-size: 3.2rem; } }
 
+.construccion {
+  max-width: 500px;
+  max-height: 500px; }
+  .construccion--img {
+    object-fit: contain; }
+
+.rotaImg {
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite; }
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg); } }
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
 .section1__form {
   height: auto;
   color: #4b1078;

@@ -23,7 +23,7 @@
     </head>
     <body class="body d-flex flex-column justify-content-between">
         <!--Menú desplegable para navegación, responsivo, disponible en todas las páginas-->
-        <div>
+        <div class="h-100">
             <header class="bg_gradient sticky-top">
                 <nav class="navbar navbar-expand-sm navbar-dark">
                     <div class="container-fluid">
@@ -63,10 +63,17 @@
             </header>
             <section class="section1">
                 <h1 class="section1__title">Muy pro kids - Web en construcción</h1>
-                <h2>Esta sección todavia no está disponible, la subiremos pronto!</h2>
+                <h2 class="section1__subtitle section1__subtitle--center">Esta sección todavia no está disponible, la subiremos pronto!</h2>
 
-                <article>
-                    <img src="../img/advertencia_3D_emerge.gif" alt="sitio en contruccion" />
+                <article class="container">
+                    <div class="row">
+                        <div class="col-md-6 construccion">
+                            <img class="construccion--img" src="../img/advertencia_3D_emerge.gif" alt="sitio en contruccion" />
+                        </div>
+                        <div class="col-md-6 construccion">
+                            <img class="construccion--img rotaImg" src="../img/engranaje.png" alt="sitio en contruccion" />
+                        </div>
+                    </div>
                 </article>
             </section>
         </div>
