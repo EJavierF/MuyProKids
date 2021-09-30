@@ -79,6 +79,10 @@ ol {
   padding-right: 2rem;
   text-align: justify; }
 
+.section1__img--midsize {
+  max-width: 20rem;
+  max-height: 120rem; }
+
 @media (min-width: 578px) {
   .section1__title {
     font-size: 3.5rem;

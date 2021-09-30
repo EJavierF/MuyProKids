@@ -24,6 +24,11 @@
         padding-right: 2rem;
         text-align: justify;
     }
+
+    &__img--midsize {
+        max-width: 20rem;
+        max-height: 120rem;
+    }
 }
 
 @media (min-width: 578px) {
